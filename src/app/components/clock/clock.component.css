@@ -1,0 +1,18 @@
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px auto;
+}
+.image-container img {
+  height: 300px;
+  width: 300px;
+}
+.image-container p {
+  margin: 40px 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+}
+
+/*# sourceMappingURL=clock.component.css.map */

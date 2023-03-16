@@ -1,0 +1,30 @@
+.alarm-container {
+  img {
+    width: 120px;
+    height: 120px;
+    margin: 40px auto;
+  }
+  h2 {
+    font-size: 64px;
+    font-weight: normal;
+  }
+  h1 {
+    font-size: 96px;
+    font-weight: bold;
+    margin: 150px 0;
+  }
+  .form-challenge {
+    max-width: 960px;
+    width: 100%;
+    margin-top: 100px;
+  }
+
+  button {
+    margin-top: 90px;
+    width: 310px;
+    height: 100px;
+    background: #00B612;
+    color: white;
+    font-size: 24px;
+  }
+}

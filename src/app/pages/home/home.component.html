@@ -1,0 +1,17 @@
+<div class="row h-50">
+  <div class="col-md-12">
+    <div *ngIf="showQuestion; else showClock">
+      <app-challenge-question (showQuestion)="getShowQuestionValue($event)"></app-challenge-question>
+    </div>
+
+    <ng-template #showClock>
+      <app-clock></app-clock>
+    </ng-template>
+  </div>
+</div>
+<div class="row h-50">
+  <div class="col-md-12">
+    <app-data-table (showQuestion)="getShowQuestionValue($event)"></app-data-table>
+  </div>
+</div>
+
